@@ -1,3 +1,4 @@
 import ReactDOM from 'react-dom'
+import Router from "./routers/Router"
 
-ReactDOM.render(<h1>Hello</h1>, document.getElementById('root'))
+ReactDOM.render(<Router />, document.getElementById('root'))
