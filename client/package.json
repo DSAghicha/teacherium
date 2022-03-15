@@ -29,7 +29,5 @@
         ]
     },
     "main": "index.js",
-    "author": "DSAghicha",
-    "license": "MIT",
     "private": true
 }
