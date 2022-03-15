@@ -1,3 +1,5 @@
+@use './variables' as *;
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +13,9 @@ a {
     color: currentColor;
     font: 1rem 'Overpass';
 }
-
+.bg-grey {
+    background-color: $bg-color;
+}
 .fwh {
     width: 100%;
     height: 100vh;
