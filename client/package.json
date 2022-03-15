@@ -8,9 +8,9 @@
         "react-scripts": "^5.0.0"
     },
     "devDependencies": {
+        "react-router-hash-link": "^2.4.3",
         "sass": "^1.49.9"
     },
-    
     "scripts": {
         "start": "react-scripts start",
         "build": "react-scripts build",
