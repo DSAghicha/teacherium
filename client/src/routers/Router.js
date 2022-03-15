@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { Home } from '../pages'
+import { Home, About } from '../pages'
 
 const Router = () => {
     return (
@@ -7,6 +7,7 @@ const Router = () => {
             <Routes>
                 {/* PUBLIC ROUTES */}
                 <Route path='/' element={ <Home /> }/>
+                <Route path='/about' element={ <About /> }/>
             </Routes>
         </BrowserRouter>
     )
