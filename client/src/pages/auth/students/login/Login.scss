@@ -1,0 +1,72 @@
+@use '../../../../sass' as *;
+
+#studentLoginCr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .s__login {
+        &__central__cr {
+            width: 40vw;
+            background-color: #FFF;
+            padding: calc($spacing * 2);
+            border-radius: $spacing;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 250px;
+            }
+            >h1, >p {
+                width: 100%;
+                text-align: start;
+            }
+
+            form {
+                width: 100%;
+                margin-top: calc($spacing * 1.5);
+                .login__input__cr {
+                    width: 100%;
+                    .in-cr {
+                        position: relative;
+                        input {
+                            height: 40px;
+                            padding: $spacing;
+                            border-bottom: 3px solid $bg-color;
+                        }
+                        border-radius: calc($spacing / 3.5);
+
+                        .login__password_cr {
+                            position: absolute;
+                            right:  calc($spacing - 5px);
+                            top: calc($spacing - 5px);
+                            cursor: pointer;
+                            svg {
+                                fill: $theme-clr;
+                            }
+                        }
+                    }
+                    margin-bottom: $spacing;
+                    &:focus-within {
+                        .in-cr {
+                            border: 2px solid $theme-clr;
+                            input {
+                                border-bottom: none;
+                            }
+                        }
+                    }
+                }
+                input[type=submit]{
+                    background-color: $theme-clr;
+                    color: $white-clr;
+                    border-radius: calc($spacing / 4);
+                    padding:calc($spacing / 1.5);
+                    cursor: pointer;
+
+                    &:disabled {
+                        background-color: rgba($theme-clr, 30%);
+                    }
+                }
+            }
+        }
+    }
+}
