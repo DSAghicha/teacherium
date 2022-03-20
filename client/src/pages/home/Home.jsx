@@ -1,4 +1,4 @@
-import "./Home.scss"
+import "./Home.sass"
 
 import { HomeSVG } from '../../assets'
 import { Header } from '../../components'
