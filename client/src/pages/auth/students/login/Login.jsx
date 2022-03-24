@@ -9,7 +9,7 @@ const StudentLogin = () => {
     const [id, setID] = useState('')
     const [password, setPassword] = useState('')
 
-    const handlePasswordToggle = () => setShowPassword(!showPassword)
+    const handlePasswordToggle = () => setShowPassword(!showPassword)       
 
     return (
         <>
