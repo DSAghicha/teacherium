@@ -9,7 +9,7 @@ const Home = () => {
             <Header /> 
             <section id="home" className="fwh bg-grey">
                 <div className="home__left__cr">
-                    <h1>Digitize your school and become future ready now</h1>
+                    <h1>Digitize your institute and become future ready now</h1>
                     <p>Teacherium is an end to end institute management and learning management venture that helps educational institutions
                         manage their core activities. Embracing the digital-first ideology, we have a website along with its desktop counterpart equipped with
                         best-in-class features and in-depth functionality.
