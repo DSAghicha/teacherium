@@ -1,4 +1,4 @@
-import './Header.scss'
+import './Header.sass'
 
 import { NavLink } from 'react-router-dom'
 import { NavHashLink } from 'react-router-hash-link'
